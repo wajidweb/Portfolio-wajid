@@ -5455,3 +5455,30 @@ h1, h2, h3, h4, h5, h6 {
 .contact-bg{
   background-color: #ff1b1b29;
 }
+
+.contact-us{
+  background-color: #ff7e24d4;
+}
+.contact-icon {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+  background-color: orangered;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+.contact-icon i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.contact-icon:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
